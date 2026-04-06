@@ -9,3 +9,56 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.traffic-light {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100px;
+  margin: auto;
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.purple {
+  background: purple;
+}
+
+.selected {
+  box-shadow: 0 0 20px 10px white;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px;
+  cursor: pointer;
+}
